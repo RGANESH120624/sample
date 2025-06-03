@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MPG Predictor</title>
+</head>
+<body>
+    <h2>Enter Car Features</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="cyl" placeholder="Cylinders" required><br>
+        <input type="text" name="disp" placeholder="Displacement" required><br>
+        <input type="text" name="hp" placeholder="Horsepower" required><br>
+        <input type="text" name="wt" placeholder="Weight" required><br>
+        <input type="text" name="acc" placeholder="Acceleration" required><br>
+        <input type="text" name="yr" placeholder="Model Year" required><br>
+        <input type="text" name="origin_asia" placeholder="Origin Asia (0/1)" required><br>
+        <input type="text" name="origin_america" placeholder="Origin America (0/1)" required><br>
+
+        <input type="text" name="origin_europe" placeholder="Origin Europe (0/1)" required><br>
+        <button type="submit">Predict MPG</button>
+    </form>
+</body>
+</html>
